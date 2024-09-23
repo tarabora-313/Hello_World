@@ -13,3 +13,16 @@ def aboutView(request):
     return HttpResponse(message)
 
 
+def contactView(request):
+    message = 'This is contact'    
+
+    return HttpResponse(message)
+
+
+
+def cartView(request):
+    message = 'This is cart'    
+
+    return HttpResponse(message)
+
+
